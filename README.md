@@ -1,6 +1,6 @@
 # Xget Now
 
-为 Chromium 和 Firefox 浏览器提供的 [Xget](https://github.com/xixu-me/Xget) 下载加速扩展，支持 GitHub、GitLab、npm、PyPI 等众多平台的文件下载加速。
+为 Chromium 和 Firefox 浏览器提供的 [Xget](https://github.com/fnthinklevi/Xget) 下载加速扩展，支持 GitHub、GitLab、npm、PyPI 等众多平台的文件下载加速。
 
 ## 🚀 功能特性
 
@@ -27,7 +27,7 @@
 #### 选项 1：从 GitHub Releases 安装（推荐）
 
 1. **下载扩展**
-   - 前往 [Releases 页面](https://github.com/xixu-me/Xget-Now/releases/latest)
+   - 前往 [Releases 页面](https://github.com/fnthinklevi/Xget-Now/releases/latest)
    - 下载对应浏览器的扩展文件：
      - `Xget-Now_x.x.x.chromium.zip` - 适用于所有基于 Chromium 的浏览器（Chrome、Edge、Opera 等）
      - `Xget-Now_x.x.x.firefox.zip` - 适用于 Firefox 浏览器
@@ -60,7 +60,7 @@
 1. **克隆存储库**
 
    ```bash
-   git clone https://github.com/xixu-me/Xget-Now.git
+   git clone https://github.com/fnthinklevi/Xget-Now.git
    cd Xget-Now
    ```
 
@@ -103,7 +103,7 @@
 
 1. **配置 Xget 域名**
    - 点击工具栏中的扩展图标
-   - 输入你的 Xget 域名（例如 `xget.xi-xu.me`）
+   - 输入你的 Xget 域名（例如 `fnthinklevi`）
    - 启用扩展
 
 2. **选择平台**
@@ -159,8 +159,8 @@
 ### Xget 服务要求
 
 - **Xget 服务**：访问 Xget 实例
-  - 使用公共实例：`xget.xi-xu.me`
-  - 或部署你自己的：[Xget 存储库](https://github.com/xixu-me/Xget)
+  - 使用公共实例：`xget.fnthink.top`
+  - 或部署你自己的：[Xget 存储库](https://github.com/fnthinklevi/Xget)
 
 ### 关于 Xget 服务
 
@@ -171,7 +171,7 @@ Xget 是基于 Cloudflare Workers 构建的高性能、安全的代理服务，�
 - **安全性**：全面的安全标头和内容保护
 - **可靠性**：内置超时保护和性能监控
 
-在 [xget.xi-xu.me](https://xget.xi-xu.me) 或 [Xget 存储库](https://github.com/xixu-me/Xget) 了解更多。
+在 [xget.fnthink.top](https://xget.fnthink.top) 或 [Xget 存储库](https://github.com/fnthinklevi/Xget) 了解更多。
 
 ## 🔒 隐私与安全
 
@@ -203,9 +203,9 @@ Xget 是基于 Cloudflare Workers 构建的高性能、安全的代理服务，�
 **Xget 域名问题？**
 
 - 域名应该不带 `https://` 协议
-- 示例：`xget.xi-xu.me`（不是 `https://xget.xi-xu.me`）
+- 示例：`xget.fnthink.top`（不是 `https://xget.fnthink.top`）
 - 检查域名在浏览器中是否可访问
-- 尝试使用默认的公共实例：`xget.xi-xu.me`
+- 尝试使用默认的公共实例：`xget.fnthink.top`
 
 **性能问题？**
 
@@ -252,7 +252,7 @@ Xget 是基于 Cloudflare Workers 构建的高性能、安全的代理服务，�
 
 ### 我可以使用自己的 Xget 服务器吗？
 
-当然可以！你可以使用 [Xget 存储库](https://github.com/xixu-me/Xget) 部署自己的 Xget 实例，并配置扩展使用你的域名。
+当然可以！你可以使用 [Xget 存储库](https://github.com/fnthinklevi/Xget) 部署自己的 Xget 实例，并配置扩展使用你的域名。
 
 ### 为什么有些下载仍然通过原始服务器？
 
@@ -292,5 +292,5 @@ Xget 是基于 Cloudflare Workers 构建的高性能、安全的代理服务，�
   - [Chrome 应用商店](https://chromewebstore.google.com/detail/ajiejgobfcifcikbahpijopolfjoodgf?hl=zh-CN)
   - [Firefox 附加组件](https://addons.mozilla.org/zh-CN/firefox/addon/xget-now/)
   - [Edge 加载项](https://microsoftedge.microsoft.com/addons/detail/jigpfhbegabdenhihpplcjhpfdcgnalc?hl=zh-CN&gl=CN)
-- 🐛 通过 [GitHub Issues](https://github.com/xixu-me/Xget-Now/issues) 报告错误或建议功能
+- 🐛 通过 [GitHub Issues](https://github.com/fnthinklevi/Xget-Now/issues) 报告错误或建议功能
 - 📢 与其他可能受益于更快下载的人分享
