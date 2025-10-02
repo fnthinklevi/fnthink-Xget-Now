@@ -1,13 +1,13 @@
 {
-  "author": "Xi Xu",
+  "author": "fnthinklevi",
   "bugs": {
-    "url": "https://github.com/xixu-me/Xget-Now/issues"
+    "url": "https://github.com/fnthinklevi/Xget-Now/issues"
   },
   "description": "为 Chromium 浏览器提供的 Xget 下载加速扩展，支持 GitHub、GitLab、npm、PyPI 等众多平台的文件下载加速",
   "engines": {
     "chrome": ">=88"
   },
-  "homepage": "https://github.com/xixu-me/Xget-Now",
+  "homepage": "https://github.com/fnthinklevi/Xget-Now",
   "keywords": [
     "chrome-extension",
     "download-accelerator",
@@ -53,7 +53,7 @@
   "name": "xget-now",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xixu-me/Xget-Now.git"
+    "url": "https://github.com/fnthinklevi/Xget-Now.git"
   },
   "scripts": {
     "build": "echo 'No build process needed for Chrome extension'",
