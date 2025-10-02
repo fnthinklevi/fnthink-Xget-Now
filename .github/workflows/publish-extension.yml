@@ -1,4 +1,4 @@
-name: 发布扩展到多个应用商店
+name: 发布新版本
 
 # 工作流触发条件：手动触发，允许指定版本号
 on:
@@ -133,42 +133,7 @@ jobs:
           echo "🔍 运行代码检查..."
           python dev.py lint
 
-      - name: 发布到 Chrome 应用商店
-        continue-on-error: true
-        id: chrome-publish
-        uses: mnao305/chrome-extension-upload@v5.0.0
-        with:
-          file-path: packages/Xget-Now_${{ steps.version.outputs.version }}.chromium.zip
-          extension-id: ${{ secrets.CHROME_EXTENSION_ID }}
-          client-id: ${{ secrets.CHROME_CLIENT_ID }}
-          client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
-          refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
-          publish: true
 
-      - name: 发布到 Edge 加载项
-        continue-on-error: true
-        id: edge-publish
-        uses: wdzeng/edge-addon@v2
-        with:
-          product-id: ${{ secrets.EDGE_PRODUCT_ID }}
-          zip-path: packages/Xget-Now_${{ steps.version.outputs.version }}.chromium.zip
-          api-key: ${{ secrets.EDGE_API_KEY }}
-          client-id: ${{ secrets.EDGE_CLIENT_ID }}
-          notes-for-certification: "自动发布 v${{ steps.version.outputs.version }} - ${{ github.sha }}"
-
-      - name: 发布到 Firefox 附加组件
-        continue-on-error: true
-        id: firefox-publish
-        uses: browser-actions/release-firefox-addon@latest
-        with:
-          addon-id: ${{ secrets.FIREFOX_ADDON_ID }}
-          addon-path: packages/Xget-Now_${{ steps.version.outputs.version }}.firefox.xpi
-          auth-api-issuer: ${{ secrets.FIREFOX_AUTH_API_ISSUER }}
-          auth-api-secret: ${{ secrets.FIREFOX_AUTH_API_SECRET }}
-          approval-note: |
-            这是一个下载加速器扩展，支持多个平台的文件下载加速。
-            源代码位于 GitHub: https://github.com/xixu-me/Xget-Now
-            构建说明：直接从源代码打包，无需编译或转译。
 
       - name: 创建 GitHub 发布
         uses: softprops/action-gh-release@v2
