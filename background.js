@@ -185,7 +185,7 @@ function detectPlatform(url) {
 }
 const DEFAULT_SETTINGS = {
   enabled: true,
-  xgetDomain: "xget.xi-xu.me",
+  xgetDomain: "xget.fnthink.top",
   enabledPlatforms: {
     // 代码托管平台
     gh: true,
