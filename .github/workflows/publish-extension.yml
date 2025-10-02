@@ -159,7 +159,7 @@ jobs:
 
             ## 🚀 安装方法
 
-            详细的安装说明请参考：[手动安装指南](https://github.com/xixu-me/Xget-Now?tab=readme-ov-file#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85)
+            详细的安装说明请参考：[手动安装指南](https://github.com/fnthinklevi/Xget-Now?tab=readme-ov-file#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85)
 
             ## 📝 更新日志
 
@@ -168,40 +168,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 检查发布结果
-        run: |
-          echo "📊 发布结果摘要:"
-          echo "================================"
-          echo "📦 版本: ${{ steps.version.outputs.version }}"
-          echo ""
 
-          if [ "${{ steps.chrome-publish.outcome }}" = "success" ]; then
-            echo "✅ Chrome 应用商店: 发布成功"
-          elif [ "${{ steps.chrome-publish.outcome }}" = "failure" ]; then
-            echo "❌ Chrome 应用商店: 发布失败"
-          else
-            echo "⚠️ Chrome 应用商店: 已跳过（缺少密钥或其他原因）"
-          fi
-
-          if [ "${{ steps.edge-publish.outcome }}" = "success" ]; then
-            echo "✅ Edge 加载项: 发布成功"
-          elif [ "${{ steps.edge-publish.outcome }}" = "failure" ]; then
-            echo "❌ Edge 加载项: 发布失败"
-          else
-            echo "⚠️ Edge 加载项: 已跳过（缺少密钥或其他原因）"
-          fi
-
-          if [ "${{ steps.firefox-publish.outcome }}" = "success" ]; then
-            echo "✅ Firefox 附加组件: 发布成功"
-          elif [ "${{ steps.firefox-publish.outcome }}" = "failure" ]; then
-            echo "❌ Firefox 附加组件: 发布失败"
-          else
-            echo "⚠️ Firefox 附加组件: 已跳过（缺少密钥或其他原因）"
-          fi
-
-          echo ""
-          echo "✅ GitHub 发布: 已创建包含所有扩展文件"
-          echo "================================"
 
       - name: 通知成功
         run: |
