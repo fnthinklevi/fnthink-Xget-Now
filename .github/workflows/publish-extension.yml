@@ -139,27 +139,27 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.version.outputs.version }}
-          name: Xget Now ${{ steps.version.outputs.version }}
+          name: fnthink Xget Now ${{ steps.version.outputs.version }}
           files: |
-            packages/Xget-Now_${{ steps.version.outputs.version }}.chromium.zip
-            packages/Xget-Now_${{ steps.version.outputs.version }}.firefox.xpi
+            packages/fnthink-Xget-Now_${{ steps.version.outputs.version }}.chromium.zip
+            packages/fnthink-Xget-Now_${{ steps.version.outputs.version }}.firefox.xpi
           generate_release_notes: true
           body: |
             ## 📦 扩展包下载
 
             ### Chromium
-            - **文件**: `Xget-Now_${{ steps.version.outputs.version }}.chromium.zip`
+            - **文件**: `fnthink-Xget-Now_${{ steps.version.outputs.version }}.chromium.zip`
             - **支持**: Chrome、Edge 等基于 Chromium 的浏览器
             - **Manifest**: v3
 
             ### Firefox
-            - **文件**: `Xget-Now_${{ steps.version.outputs.version }}.firefox.xpi`
+            - **文件**: `fnthink-Xget-Now_${{ steps.version.outputs.version }}.firefox.xpi`
             - **支持**: Firefox 或其他基于 Firefox 的浏览器
             - **Manifest**: v2
 
             ## 🚀 安装方法
 
-            详细的安装说明请参考：[手动安装指南](https://github.com/fnthinklevi/Xget-Now?tab=readme-ov-file#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85)
+            详细的安装说明请参考：[手动安装指南](https://github.com/fnthinklevi/fnthink-Xget-Now?tab=readme-ov-file#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85)
 
             ## 📝 更新日志
 
@@ -173,7 +173,7 @@ jobs:
       - name: 通知成功
         run: |
           echo ""
-          echo "🎉 成功发布 Xget Now ${{ steps.version.outputs.version }}!"
+          echo "🎉 成功发布 fnthink Xget Now ${{ steps.version.outputs.version }}!"
           echo "================================"
           echo "🔗 Chrome 应用商店: https://chrome.google.com/webstore/detail/${{ secrets.CHROME_EXTENSION_ID }}"
           echo "🔗 Edge 加载项: 查看发布页面获取最新信息"
@@ -182,6 +182,6 @@ jobs:
           echo "📖 安装指南: https://github.com/${{ github.repository }}#installation"
           echo ""
           echo "📁 发布的文件:"
-          echo "  - Xget-Now_${{ steps.version.outputs.version }}.chromium.zip (Chromium)"
-          echo "  - Xget-Now_${{ steps.version.outputs.version }}.firefox.xpi (Firefox)"
+          echo "  - fnthink-Xget-Now_${{ steps.version.outputs.version }}.chromium.zip (Chromium)"
+          echo "  - fnthink-Xget-Now_${{ steps.version.outputs.version }}.firefox.xpi (Firefox)"
           echo "================================"
