@@ -27,10 +27,10 @@
 #### 选项 1：从 GitHub Releases 安装（推荐）
 
 1. **下载扩展**
-   - 前往 [Releases 页面](https://github.com/fnthinklevi/Xget-Now/releases/latest)
+   - 前往 [Releases 页面](https://github.com/fnthinklevi/fnthink-Xget-Now/releases/latest)
    - 下载对应浏览器的扩展文件：
-     - `Xget-Now_x.x.x.chromium.zip` - 适用于所有基于 Chromium 的浏览器（Chrome、Edge、Opera 等）
-     - `Xget-Now_x.x.x.firefox.zip` - 适用于 Firefox 浏览器
+     - `fnthink-Xget-Now_x.x.x.chromium.zip` - 适用于所有基于 Chromium 的浏览器（Chrome、Edge、Opera 等）
+     - `fnthink-Xget-Now_x.x.x.firefox.zip` - 适用于 Firefox 浏览器
 
 2. **在 Chrome 中安装**
    - 解压下载的 Chromium 版本 ZIP 文件
@@ -60,8 +60,8 @@
 1. **克隆存储库**
 
    ```bash
-   git clone https://github.com/fnthinklevi/Xget-Now.git
-   cd Xget-Now
+   git clone https://github.com/fnthinklevi/fnthink-Xget-Now.git
+   cd fnthink-Xget-Now
    ```
 
 2. **构建扩展（可选）**
