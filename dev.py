@@ -261,7 +261,7 @@ def lint_code():
 def main():
     import argparse
 
-    parser = argparse.ArgumentParser(description="Xget Now 开发工具")
+    parser = argparse.ArgumentParser(description="fnthink Xget Now 开发工具")
     parser.add_argument(
         "command", choices=["test", "lint", "watch", "serve"], help="要执行的命令"
     )
