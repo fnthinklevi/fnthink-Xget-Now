@@ -1,13 +1,13 @@
 {
   "author": "fnthinklevi",
   "bugs": {
-    "url": "https://github.com/fnthinklevi/Xget-Now/issues"
+    "url": "https://github.com/fnthinklevi/fnthink-Xget-Now/issues"
   },
-  "description": "为 Chromium 浏览器提供的 Xget 下载加速扩展，支持 GitHub、GitLab、npm、PyPI 等众多平台的文件下载加速",
+  "description": "幻念团队为 Chromium 浏览器提供的fnthink Xget 下载加速扩展，支持 GitHub、GitLab、npm、PyPI 等众多平台的文件下载加速",
   "engines": {
     "chrome": ">=88"
   },
-  "homepage": "https://github.com/fnthinklevi/Xget-Now",
+  "homepage": "https://github.com/fnthinklevi/fnthink-Xget-Now",
   "keywords": [
     "chrome-extension",
     "download-accelerator",
@@ -16,7 +16,9 @@
     "npm",
     "pypi",
     "xget",
-    "download-proxy"
+    "download-proxy",
+    "fnthink",
+    "幻念团队"
   ],
   "license": "GPL-3.0",
   "main": "background.js",
@@ -50,10 +52,10 @@
     ],
     "version": 3
   },
-  "name": "xget-now",
+  "name": "fnthink-xget-now",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fnthinklevi/Xget-Now.git"
+    "url": "https://github.com/fnthinklevi/fnthink-Xget-Now.git"
   },
   "scripts": {
     "build": "echo 'No build process needed for Chrome extension'",
