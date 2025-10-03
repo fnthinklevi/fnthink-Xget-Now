@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Xget Now",
+  "name": "fnthink Xget Now",
   "version": "2.0.4.6",
-  "description": "为 Firefox 浏览器提供的 Xget 下载加速扩展，支持 GitHub、GitLab、npm、PyPI 等众多平台的文件下载加速",
+  "description": "幻念团队为 Firefox 浏览器提供的fnthink Xget 下载加速扩展，支持 GitHub、GitLab、npm、PyPI 等众多平台的文件下载加速",
   "browser_action": {
     "default_icon": {
       "16": "icons/icon16.png",
@@ -11,7 +11,7 @@
       "128": "icons/icon128.png"
     },
     "default_popup": "popup.html",
-    "default_title": "Xget Now"
+    "default_title": "fnthink Xget Now"
   },
   "background": {
     "scripts": [
