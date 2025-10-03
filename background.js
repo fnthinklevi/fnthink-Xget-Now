@@ -224,7 +224,7 @@ const DEFAULT_SETTINGS = {
 
 // 初始化扩展
 webext.runtime.onInstalled.addListener(async () => {
-  console.log("Xget Now 已安装");
+  console.log("fnthink Xget Now 已安装");
 
   // 使用本地存储而不是同步存储以确保兼容性
   const storageAPI = webext.storage.sync || webext.storage.local;
@@ -286,7 +286,7 @@ async function processDownloadRedirect(downloadItem) {
         try {
           await webext.tabs.sendMessage(downloadItem.tabId, {
             action: "showNotification",
-            message: "下载已通过 Xget 重定向",
+            message: "下载已通过 fnthink Xget 重定向",
           });
         } catch (error) {
           console.log("无法向标签页发送通知");
