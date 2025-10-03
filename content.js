@@ -154,7 +154,7 @@ const PLATFORMS = {
 
 // 初始化内容脚本
 (async function () {
-  console.log("Xget Now：内容脚本已加载");
+  console.log("fnthink Xget Now：内容脚本已加载");
 
   // 监听来自后台脚本的消息
   webext.runtime.onMessage.addListener((request, sender, sendResponse) => {
@@ -472,7 +472,7 @@ async function handleDownloadLink(url) {
     const transformedUrl = transformUrl(url, settings);
     if (transformedUrl) {
       // 显示通知
-      showNotification(`下载已通过 Xget 重定向`);
+      showNotification(`下载已通过fnthink Xget 重定向`);
 
       // 触发下载
       window.location.href = transformedUrl;
@@ -609,6 +609,6 @@ function showNotification(message, showRefreshButton = false) {
   } catch (error) {
     console.error("显示通知时出错：", error);
     // 如果 DOM 操作失败则回退到控制台日志
-    console.log("Xget 通知：", message);
+    console.log("fnthink Xget 通知：", message);
   }
 }
