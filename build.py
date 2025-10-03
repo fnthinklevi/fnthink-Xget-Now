@@ -173,7 +173,7 @@ def create_package(build_dir, platform):
         file_ext = "zip"
         platform_name = platform
 
-    package_name = f"Xget-Now_{version}.{platform_name}.{file_ext}"
+    package_name = f"fnthink-Xget-Now_{version}.{platform_name}.{file_ext}"
     package_path = package_dir / package_name
 
     # 创建扩展包
@@ -228,7 +228,7 @@ def validate_manifest(manifest_path, platform):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="构建 Xget Now 扩展")
+    parser = argparse.ArgumentParser(description="构建fnthink Xget Now 扩展")
     parser.add_argument(
         "--platform",
         choices=["chrome", "firefox", "all"],
