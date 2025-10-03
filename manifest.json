@@ -7,7 +7,7 @@
       "128": "icons/icon128.png"
     },
     "default_popup": "popup.html",
-    "default_title": "Xget Now"
+    "default_title": "fnthink Xget Now"
   },
   "background": {
     "service_worker": "background.js"
@@ -48,7 +48,7 @@
       "run_at": "document_end"
     }
   ],
-  "description": "为 Chromium 浏览器提供的 Xget 下载加速扩展，支持 GitHub、GitLab、npm、PyPI 等众多平台的文件下载加速",
+  "description": "幻念团队为 Chromium 浏览器提供的 fnthink Xget 下载加速扩展，支持 GitHub、GitLab、npm、PyPI 等众多平台的文件下载加速",
   "host_permissions": [
     "https://github.com/*",
     "https://gitlab.com/*",
@@ -83,7 +83,7 @@
     "128": "icons/icon128.png"
   },
   "manifest_version": 3,
-  "name": "Xget Now",
+  "name": "fnthink Xget Now",
   "permissions": [
     "downloads",
     "storage",
