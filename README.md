@@ -15,10 +15,9 @@
 
 ### 商店可用性
 
-- [Chrome 应用商店](https://chromewebstore.google.com/detail/ajiejgobfcifcikbahpijopolfjoodgf?hl=zh-CN)
-- [Chrome 应用商店镜像](https://chromewebstore.xi-xu.me/detail/ajiejgobfcifcikbahpijopolfjoodgf)
+- [Chrome 应用商店]暂不可用
 - [Firefox 附加组件](https://addons.mozilla.org/zh-CN/firefox/addon/xget-now/)
-- [Edge 加载项](https://microsoftedge.microsoft.com/addons/detail/jigpfhbegabdenhihpplcjhpfdcgnalc?hl=zh-CN&gl=CN)
+- [Edge 加载项](https://microsoftedge.microsoft.com/addons/detail/fnthink-xget-now/odeebmmbofohaplhbfpchelehlilcodg)
 
 ### 手动安装
 
@@ -103,7 +102,7 @@
 
 1. **配置 Xget 域名**
    - 点击工具栏中的扩展图标
-   - 输入你的 Xget 域名（例如 `fnthinklevi`）
+   - 输入你的 Xget 域名（例如 `xget.fnthink.top`）
    - 启用扩展
 
 2. **选择平台**
