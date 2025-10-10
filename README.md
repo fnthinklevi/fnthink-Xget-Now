@@ -288,8 +288,8 @@ Xget 是基于 Cloudflare Workers 构建的高性能、安全的代理服务，�
 
 - ⭐ 为此存储库点星
 - 📝 留下评价：
-  - [Chrome 应用商店](https://chromewebstore.google.com/detail/ajiejgobfcifcikbahpijopolfjoodgf?hl=zh-CN)
-  - [Firefox 附加组件](https://addons.mozilla.org/zh-CN/firefox/addon/xget-now/)
-  - [Edge 加载项](https://microsoftedge.microsoft.com/addons/detail/jigpfhbegabdenhihpplcjhpfdcgnalc?hl=zh-CN&gl=CN)
-- 🐛 通过 [GitHub Issues](https://github.com/fnthinklevi/Xget-Now/issues) 报告错误或建议功能
+  - [Chrome 应用商店](https://microsoftedge.microsoft.com/addons/detail/fnthink-xget-now/odeebmmbofohaplhbfpchelehlilcodg)
+  - [Firefox 附加组件](https://addons.mozilla.org/addon/fnthink-xget-now/)
+  - [Edge 加载项](https://microsoftedge.microsoft.com/addons/detail/fnthink-xget-now/odeebmmbofohaplhbfpchelehlilcodg)
+- 🐛 通过 [GitHub Issues](https://github.com/fnthinklevi/fnthink-Xget-Now/issues) 报告错误或建议功能
 - 📢 与其他可能受益于更快下载的人分享
