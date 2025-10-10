@@ -15,8 +15,8 @@
 
 ### 商店可用性
 
-- [Chrome 应用商店]暂不可用
-- [Firefox 附加组件]暂不可用
+- [Chrome 应用商店](https://microsoftedge.microsoft.com/addons/detail/fnthink-xget-now/odeebmmbofohaplhbfpchelehlilcodg)
+- [Firefox 附加组件](https://addons.mozilla.org/addon/fnthink-xget-now/)
 - [Edge 加载项](https://microsoftedge.microsoft.com/addons/detail/fnthink-xget-now/odeebmmbofohaplhbfpchelehlilcodg)
 
 ### 手动安装
