@@ -431,3 +431,15 @@ const messageListener = (request, sender, sendResponse) => {
     return true; // 保持消息通道开放
   }
 });
+
+  // 未知消息
+  return false;
+};
+
+// 添加消息监听器
+if (webext && webext.runtime && webext.runtime.onMessage) {
+  webext.runtime.onMessage.addListener(messageListener);
+  console.log("Message listener registered");
+} else {
+  console.error("Cannot register message listener - runtime API not available");
+}
